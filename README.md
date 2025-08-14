@@ -16,6 +16,3 @@
 | Arsitektur Model | Menggunakan model Deep Neural Network (DNN) yang dibangun dengan TensorFlow/Keras. Arsitektur model terdiri dari: Beberapa layer `Dense` dengan fungsi aktivasi ReLU, sebuah layer `Dropout` untuk mencegah overfitting, layer output `Dense` dengan 4 unit (sesuai jumlah kelas `price_range`) dan fungsi aktivasi Softmax untuk klasifikasi multi-kelas. |
 | Metrik Evaluasi | Metrik utama yang digunakan adalah Sparse Categorical Accuracy. Akurasi dipilih karena distribusi kelas pada dataset ini seimbang, sehingga akurasi dapat menjadi representasi performa model yang baik. |
 | Performa Model | Model yang telah dilatih dan dievaluasi menggunakan TFX Evaluator berhasil mencapai akurasi sebesar 89% pada set data evaluasi. |
-| Opsi deployment | Deksripsi tentang opsi deployment |
-| Web app | Tautan web app yang digunakan untuk mengakses model serving. Contoh: [nama-model](https://model-resiko-kredit.herokuapp.com/v1/models/model-resiko-kredit/metadata)|
-| Monitoring | Deksripsi terkait hasil monitoring dari model serving |
