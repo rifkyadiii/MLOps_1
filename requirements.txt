@@ -1,0 +1,7 @@
+tfx==1.14.0
+tensorflow==2.15.0
+apache-beam[interactive]==2.53.0
+scikit-learn
+pandas
+jupyter
+requests
